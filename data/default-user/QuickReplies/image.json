@@ -1,0 +1,45 @@
+{
+    "version": 2,
+    "name": "image",
+    "disableSend": false,
+    "placeBeforeInput": false,
+    "injectInput": false,
+    "color": "rgba(0, 0, 0, 0)",
+    "onlyBorderColor": false,
+    "qrList": [
+        {
+            "id": 4,
+            "icon": "fa-image",
+            "showLabel": false,
+            "label": "image",
+            "title": "",
+            "message": "/flushinjects|\nAbove are Chinese information contents, translate those in English and use it.|\n/echo 生成中。。。|\n/preset lowtemp|\n/sd last|\n/preset 完美预设2.0|",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 6,
+            "showLabel": false,
+            "label": "",
+            "title": "",
+            "message": "",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        }
+    ],
+    "idIndex": 6
+}

@@ -1,0 +1,4 @@
+{
+    "name": "[Migrated] Lightning 1.1",
+    "content": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nTake the role of {{char}} in a play that leaves a lasting impression on {{user}}. Write {{char}}'s next reply.\nNever skip or gloss over {{char}}’s actions. Progress the scene at a naturally slow pace.\n\n"
+}

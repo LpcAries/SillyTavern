@@ -1,0 +1,76 @@
+dataRoot: ./data
+listen: true
+protocol:
+  ipv4: true
+  ipv6: false
+dnsPreferIPv6: false
+autorunHostname: auto
+port: 8999
+autorunPortOverride: -1
+whitelistMode: false
+enableForwardedWhitelist: false
+whitelist:
+  - ::1
+  - 127.0.0.1
+  - 0.0.0.0
+basicAuthMode: true
+basicAuthUser:
+  username: admin
+  password: l8838880
+enableCorsProxy: true
+enableUserAccounts: false
+enableDiscreetLogin: false
+sessionTimeout: 86400
+cookieSecret: 1N2VfpTlyK++db/jR4IQ5UZMuTgWBa5dpzGLaJ6pO3wUDDPm6t++al5xZyNYeM/m4TIt8S7jvAcRMBFoKden4w==
+disableCsrfProtection: true
+securityOverride: false
+autorun: true
+avoidLocalhost: false
+disableThumbnails: false
+thumbnailsQuality: 95
+avatarThumbnailsPng: false
+allowKeysExposure: false
+skipContentCheck: false
+disableChatBackup: false
+numberOfBackups: 50
+whitelistImportDomains:
+  - localhost
+  - cdn.discordapp.com
+  - files.catbox.moe
+  - raw.githubusercontent.com
+requestOverrides: []
+enableExtensions: true
+extras:
+  disableAutoDownload: false
+  classificationModel: Cohee/distilbert-base-uncased-go-emotions-onnx
+  captioningModel: Xenova/vit-gpt2-image-captioning
+  embeddingModel: Cohee/jina-embeddings-v2-base-en
+  promptExpansionModel: Cohee/fooocus_expansion-onnx
+  speechToTextModel: Xenova/whisper-small
+  textToSpeechModel: Xenova/speecht5_tts
+openai:
+  randomizeUserId: false
+  captionSystemPrompt: ""
+deepl:
+  formality: default
+mistral:
+  enablePrefix: false
+ollama:
+  keepAlive: -1
+claude:
+  enableSystemPromptCache: false
+  cachingAtDepth: -1
+enableServerPlugins: false
+cardsCacheCapacity: 100
+requestProxy:
+  enabled: false
+  url: socks5://username:password@example.com:1080
+  bypass:
+    - localhost
+    - 127.0.0.1
+autheliaAuth: false
+perUserBasicAuth: false
+chatBackupThrottleInterval: 10000
+enableExtensionsAutoUpdate: true
+enableDownloadableTokenizers: true
+promptPlaceholder: "[Start a new chat]"
